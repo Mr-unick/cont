@@ -1,0 +1,110 @@
+.adduser {
+    display: flex;
+    margin-top: 10px;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#form {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #6fb3f7;
+}
+
+#btn {
+    margin: 30px;
+    width: 120px;
+}
+
+#tittle {
+    width: 80vh;
+    height: 20px;
+   
+}
+.padding{
+    margin: 8px;
+}
+
+#discription {
+    margin-top: 10px;
+    width: 80vh;
+    height: 90%;
+
+}
+
+.btns {
+    display: flex;
+    margin-top: 10px;
+}
+
+.adduser button {
+    height: 35px;
+    width: 70px;
+    border: none;
+    color: #fff;
+    background-color: #3484f0;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adduser button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 #05bada66;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+@media (max-width:768px) {
+    .adduser button {
+        height: 45px;
+        font-size: 17px;
+    }
+
+    #tittle {
+        width: 32vh;
+    }
+
+    #discription {
+        margin-top: 10px;
+        width: 32vh;
+
+    }
+
+    #form {
+        margin-top: 5px;
+    }
+
+    .btns {
+
+        margin-top: 0px;
+    }
+}
